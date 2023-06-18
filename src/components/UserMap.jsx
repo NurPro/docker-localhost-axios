@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const UserMap = ({ user }) => {
   return (
-    <Cont>
+    <div>
 
       {user.map((item) => (
         <div class="card text-bg-success mb-3" key={item.id}>
@@ -16,8 +16,6 @@ export const UserMap = ({ user }) => {
           </div>
         </div>
       ))}
-    </Cont>
+    </div>
   );
 }
-
-const Cont = styled.tagName``
