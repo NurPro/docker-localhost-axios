@@ -17,6 +17,8 @@ export const User = () => {
     <div>
       <UserMap user={user} />
       <fieldset>test-bransh</fieldset>
+      <fieldset>otkat kommit</fieldset>
+      <fieldset>new commmit </fieldset>
     </div>
   )
 };
