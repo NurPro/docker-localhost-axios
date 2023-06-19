@@ -17,9 +17,6 @@ export const User = () => {
     <div>
       <UserMap user={user} />
       <fieldset>test-bransh</fieldset>
-      <fieldset>branch checkout </fieldset>
-      <fieldset>branch checkout status </fieldset>
-
     </div>
   )
 };
